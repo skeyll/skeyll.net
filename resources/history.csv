@@ -1,0 +1,27 @@
+6/28,PON,Launch On AppStore GooglePlay and SteamDemo,ver1.0.0,2024
+5/9,PON,Announce Ponolf,PV,2024
+2/23,WEB,Website renewed,Ver3.0,2024
+9/27,BLOGE,To Zola from WP, ,2022
+4/3,BS,Announced 1st trailer,PV,2021
+11/27,BLOGJ,About Copyright in 2020,JP,2020
+10/30,BLOGJ,Making the game graphics should be last,JP,2020
+10/1,WEB,Refreshed website,Ver2.0,2020
+7/26,BLOGJ,How to create a sprite by Script,JP,2020
+3/20,TGA,Add the text data of Chinese Tradional.<br>Change some UI position.,Ver.1.61,2020
+2/24,TGA,Change&#160;the&#160;TrackTarget&#160;size&#160;from&#160;50cm&#160;to&#160;40cm.&#160;<br>Change&#160;TrackTarget&#160;speed.&#160;<br>Reduce&#160;Standard&#160;and&#160;React&#160;range&#160;narrow.&#160;<br>Change&#160;React&#160;mode&#160;system.(Increase&#160;a&#160;target&#160;and&#160;decrease&#160;the&#160;time&#160;for&#160;a&#160;target&#160;to&#160;disappear&#160;every&#160;11&#160;up&#160;to&#160;three&#160;times.)&#160;<br>Change&#160;Track&#160;point&#160;system.&#160;<br>Add&#160;Focus&#160;mode(For&#160;SG)&#160;<br>Fix&#160;bug&#160;around&#160;HUD&#160;setting.&#160;,Ver.1.6,2020
+4/30,BLOGE,Take same size Screenshots regardless of resolutions in Unity,EN,2020
+3/29,BLOGE,Create the button getting a input by various ways in Unity,EN,2020
+2/15,BLOGE,Way to switch an animation from any state,EN,2020
+2/2,TGA,Change&#160;the&#160;target&#160;size&#160;and&#160;appering&#160;position<br>Change&#160;around&#160;ads<br>Change&#160;around&#160;login&#160;on&#160;title,Ver.1.5,2020
+1/15,TGA,Update&#160;Unity&#160;version&#160;to&#160;2019.1.14<br>Change&#160;privacy&#160;policy<br>FIx&#160;UI<br>Change&#160;camera&#160;sensitivity&#160;limit<br>Change&#160;leaderboard&#160;to&#160;external&#160;one<br>Add&#160;Normal&#160;leaderboard<br>Remove&#160;banner&#160;ads&#160;and&#160;increase&#160;ads&#160;after&#160;game,Ver.1.4,2020
+1/2,BLOGE,The Guide of ScriptableObject,EN,2020
+10/11,BLOGE,Animation of 2D model,JA,2019
+10/06,BLOGE,How to use Touch Script,JA,2019
+9/5,TGA,Change&#160;the&#160;timing&#160;sing&#160;in&#160;PlayGame<br>Fix&#160;LeaderBoard,Ver.1.33,2019
+9/1,TGA,"Delete&#160;the&#160;method&#160;to&#160;export&#160;a&#160;game&#160;record&#160;as&#160;a&#160;image<br>Rewrite&#160;PraivacyPolicy&#160;to&#160;detail<br>Add&#160;the&#160;background&#160;image&#160;to&#160;display&#160;a&#160;game&#160;record&#160;for&#160;Dark&#160;Theme<br>Change&#160;the&#160;method&#160;of&#160;""Auto&#160;Shooting""<br>Change&#160;the&#160;way&#160;to&#160;instantiate&#160;target&#160;(only&#160;internal&#160;change)<br>(Maybe)&#160;Fix&#160;LeaderBoard",Ver.1.32,2019
+8/23,TGA,Fix&#160;about&#160;target&#160;bug,Ver1.31,2019
+8/23,TGA,Change&#160;the&#160;single&#160;shoot&#160;system&#160;(&#160;from&#160;tap&#160;to&#160;un-tap)<br>Add&#160;some&#160;cusutomize&#160;button&#160;for&#160;changing&#160;recoil&#160;and&#160;camera&#160;sensi<br>Display&#160;the&#160;parameter&#160;of&#160;recoil&#160;and&#160;camera&#160;sensi,Ver.1.3,2019
+8/13,TGA,Change&#160;the&#160;shoot&#160;system&#160;for&#160;fixing&#160;the&#160;bug&#160;that&#160;can't&#160;perform&#160;at&#160;single&#160;shoot.&#160;,Ver.1.23,2019
+8/11,TGA,"Fix&#160;the&#160;problem&#160;that&#160;user&#160;can't&#160;sing&#160;in&#160;GooglePlayService<br>&#160;Change&#160;the&#160;shooting&#160;order&#160;(&#160;from&#160;""shooting&#160;soun-&#160;hit&#160;target-recoil""&#160;to&#160;""hit&#160;target-shooting&#160;sound-recoil"")<br>&#160;Reduce&#160;ads",Ver.1.22,2019
+8/11,TGA,"Add&#160;PrivacyPolicy<br>Change&#160;the&#160;title&#160;image&#160;(hitting&#160;mark&#160;from&#160;""O""&#160;of&#160;GOD&#160;to&#160;""A""&#160;of&#160;AIM)",Ver.1.21,2019
+8/9,TGA,Release,Ver.1.2,2019

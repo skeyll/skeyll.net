@@ -1,0 +1,9 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "access plus 6 hours" 
+ExpiresByType image/png "access plus 6 hours" 
+ExpiresByType image/webp "access plus 6 hours" 
+</IfModule>
+#####wpcomment_nojpdeny#####
+SetEnvIf Request_URI ".*" WpCommentDeny
+#####end:wpcomment_nojpdeny#####

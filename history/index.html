@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>History</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="en">
+    <meta name="description" content="Indie developer. I create simple and flexible apps.">
+    <link rel="alternate" hreflang="en" href="/history">
+    <link rel="alternate" hreflang="ja" href="/ja/history">
+    <link rel="alternate" hreflang="zh-Hans" href="/cn/history">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149364500-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149364500-1');
+    </script>
+    <link rel="stylesheet" href="scripts/css/history.css">
+
+<div class="displayRange">
+    <header>
+        <div class="subTitle">
+            <div class ="titleText">Update History</div>
+        </div>
+        <div id="sidemenu"></div>
+    </header>
+
+    <article>
+        <div class="subContents">
+            <div id="history"></div>
+        </div>
+    </article>
+    <p><div class="footerContent"><div><a href="https://skeyll.net/policy">PrivacyPolicy</a></div><div>&#169;2025 Skeyll.</div></div></div></p>
+</div>
+
+<script type="text/javascript" src="/scripts/js/history.js"></script>
+<script type="text/javascript">LoadCSV("EN");</script>
+<script>
+    fetch("/sidemenu.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("sidemenu").innerHTML = data;
+        });
+  </script>
+</head>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skeyll</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/scripts/css/toppage.css">
+    <meta http-equiv="content-language" content="en">
+    <link rel="alternate" hreflang="en" href="https://skeyll.net/">
+    <meta name="description" content="Game dev. I create simple and flexible apps.">
+    <meta name=”keywords” content="GameDevlop, OnlineGame, BattleSound, FreeToPlay, Ponolf, 無料ゲーム">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H43RPCM33L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+
+      gtag('js', new Date());
+    
+      gtag('config', 'G-H43RPCM33L');
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+          <div class ="title-text">Skeyll</div>
+      </div>
+      <div id="sidemenu"></div>
+    </header>
+    <div class="layout-main">
+        <div class="app_images">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="https://ponolf.skeyll.net/"><img src="/assets/PonolfSample.webp" title="Ponolf" alt="Quiz-based Multiplayer Deductive Game" class="app_images--size"></a></div>
+                    <div class="swiper-slide"><a href="https://battlesound.skeyll.net/"><img src="/assets/BSSample.png" title="BattleSound" alt="Strategy training game for mulch platform" class="app_images--size"></a></div>
+                </div>
+            </div>
+          </div>
+          <div class="layout-contents layout-contents--size">
+            <a href="https://thegodaim.skeyll.net/" class ="content-item content-item-main--size">The GOD AIM</a>
+            <a href="https://battlesound.skeyll.net/" class ="content-item content-item-main--size">Battle Sound</a>
+            <a href="https://ponolf.skeyll.net/" class ="content-item content-item-main--size">Ponolf</a>
+
+            <a href="https://skeyll.net/profile" class ="content-item content-item-sub--size" >About</a>
+            <a href="https://blog.skeyll.net/" class ="content-item content-item-sub--size">Blog</a>
+            <a href="https://skeyll.net/history" class ="content-item content-item-sub--size">History</a>
+            <a href="https://forms.gle/Zh3MdkwgaJyWAEUt6" class ="content-item content-item-sub--size">Contact</a>
+
+            <a href="https://github.com/skeyll" class ="content-item content-item-sub--size">Github</a>
+            <a href="https://twitter.com/skeylls2" class ="content-item content-item-sub--size">X</a>
+            <a href="https://www.instagram.com/skeylls2/" class ="content-item content-item-sub--size">Instagram</a>
+            <a href="https://www.youtube.com/channel/UC6MQjMSA5IqqQxhN1hYnPAw" class ="content-item content-item-sub--size">Youtube</a>
+          </div>
+    </div>
+    <footer>
+      <div class="layout-footer layout-footer--pos">
+        <div class="footer-line">
+          <div class="footer-text"><a href="https://skeyll.net/">&#169; 2019 - 2025 Skeyll</a></div>
+          <div class="footer-text privacy--pos"><a href="https://skeyll.net/policy">Privacy</a></div>
+        </div>
+      </div>
+    </footer>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="scripts/js/main.js"></script>
+    <script>
+      fetch("/sidemenu.html")
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById("sidemenu").innerHTML = data;
+          });
+    </script>
+  </body>
+</html>

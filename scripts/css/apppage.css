@@ -1,0 +1,73 @@
+*, *:before, *:after {
+  padding: 0em;
+  margin: 0em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  color: #333333;
+  font-family: "メイリオ","游ゴシック","YuGothic","Cambria","Microsoft YaHei", "SimSun", "SimHei";
+  height:100%;
+  min-height: 100%;
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  color: #6699cc;
+}
+
+.titleBar {
+  margin: 0px;
+  width: 100%;
+  color: #ffffff;
+  background: #333333;
+}
+
+.titleBar .padding {
+  padding: 0.8em 12em 0.2em 8em;
+}
+
+.titleBar titleB {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.subMenu {
+  float: right;
+  margin-right: 2em;
+}
+
+.appMargin{
+    margin: 0em 7.5em;
+}
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+footer{
+  width: 100%;
+  text-align: Left;
+  position: absolute;
+  bottom: 0;
+}
+
+.footerLine {  
+  color: #ffffff;
+  background: #333333;
+}
