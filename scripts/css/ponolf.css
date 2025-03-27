@@ -239,7 +239,7 @@ a:active { color: #555; }
         will-change: content;
     }
     .spec-logo-image:active {
-        content: url('https://skeyll.net/Image/ponolf/logo_b.webp'); 
+        content: url('https://skeyll.net/assets/ponolf/logo_b.webp'); 
     }
 }
 /* Tablet */
