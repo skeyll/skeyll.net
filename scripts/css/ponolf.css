@@ -269,7 +269,7 @@ a:active { color: #555; }
         margin-right: 2%;
     }
     .spec-logo-image {
-        content: url('https://skeyll.net/Image/ponolf/logo.webp');
+        content: url('https://skeyll.net/assets/ponolf/logo.webp');
     }
     .spec-logo-image--prop {
         max-height: 100%;
